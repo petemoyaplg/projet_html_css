@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Baskerville";
+    src: url("Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+@font-face {
+    font-family: "Vollkorn";
+    src: url("Vollkorn/static/Vollkorn-ExtraBold.ttf");
+}
+
+body {
+    background-color: rgb(199, 196, 196);
+    margin-right: 170px;
+    margin-left: 170px;
+}
+
+h1 {
+    font-family: Baskerville;
+    text-align: center;
+    font-size: 75px;
+}
+
+h2 {
+    font-family:Vollkorn;
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(54, 53, 53);
+    color: white;
+}
+
+tr:nth-of-type(2n+1) {
+    background-color: rgb(228, 225, 225);
+}
+
+tr:hover {
+    background-color: grey;
+    /* à revoire*/
+    cursor: pointer;
+}
+
+figure {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#divImg {
+    border: 3px solid red;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(73, 71, 71);
+}
+
+a {
+    color: red;
+}
+p {
+    text-align: justify;
+}
+
+#paraph, pre {
+    border: 2px dashed darkslateblue;
+    background-color: rgb(213, 211, 223);
+    margin-right: 35px;
+    margin-left: 35px;
+    color: darkslateblue;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
