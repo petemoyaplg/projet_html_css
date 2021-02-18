@@ -1,27 +1,31 @@
 @font-face {
     font-family: "Baskerville";
-    src: url("Libre_Baskerville/LibreBaskerville-Bold.ttf");
-}
-@font-face {
-    font-family: "Vollkorn";
-    src: url("Vollkorn/static/Vollkorn-ExtraBold.ttf");
+    src: url("OnlineWebFonts_COM_bb4a1f636326755327542a1c76c930f0/@font-face/5770baa7788e08e9b8cf0195faa46e00.ttf");
 }
 
 body {
-    background-color: rgb(199, 196, 196);
-    margin-right: 170px;
-    margin-left: 170px;
+    background-color: rgba(200, 200, 200, 255);
+    margin-right: 165px;
+    margin-left: 165px;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
+    height: 50px;
     font-family: Baskerville;
     text-align: center;
     font-size: 75px;
 }
 
 h2 {
-    font-family:Vollkorn;
-    color: red;
+    height: 50px;
+    font-size: 35px;
+    font-family: Baskerville;
+    color: #cf0125;
+}
+
+.para {
+    height: 35px;
 }
 
 table {
@@ -32,19 +36,19 @@ th, td {
     padding: 10px;
 }
 
-th {
-    background-color: rgb(54, 53, 53);
-    color: white;
-}
-
 tr:nth-of-type(2n+1) {
-    background-color: rgb(228, 225, 225);
+    background-color: rgba(221, 221, 221, 255);
 }
 
 tr:hover {
-    background-color: grey;
-    /* à revoire*/
+    background-color: #999999;
     cursor: pointer;
+}
+
+th {
+    background-color: rgba(51, 51, 51, 255);
+    color: white;
+    cursor: inherit;
 }
 
 figure {
@@ -55,32 +59,41 @@ figure {
 figcaption {
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-style: italic;
+    font-size: 17px;
+    margin: 0 30px;
 }
 
 #divImg {
     border: 3px solid red;
     border-radius: 15px;
     text-align: center;
-    background-color: rgb(73, 71, 71);
+    background-color: #333333;
 }
 
 a {
-    color: red;
+    color: rgba(206, 14, 48, 255);
 }
+
 p {
-    text-align: justify;
+    text-align: left;
 }
 
 #paraph, pre {
-    border: 2px dashed darkslateblue;
-    background-color: rgb(213, 211, 223);
+    border: 3px dashed darkslateblue;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(183, 183, 183, 255);
     margin-right: 35px;
     margin-left: 35px;
-    color: darkslateblue;
-    padding-left: 25px;
-    padding-right: 25px;
+    color: #5d52af;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 30px;
+}
+
+pre {
+    font-size: inherit;
 }
