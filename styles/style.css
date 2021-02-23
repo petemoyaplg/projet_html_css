@@ -5,8 +5,10 @@
 
 body {
     background-color: rgba(200, 200, 200, 255);
-    margin-right: 165px;
-    margin-left: 165px;
+    width: 1020px;
+    margin-left: 50%;
+    position: relative;
+    transform: translateX(-50%);
     font-family: Arial, sans-serif;
 }
 
@@ -30,6 +32,7 @@ h2 {
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 th, td {
@@ -84,14 +87,18 @@ p {
     font-weight: bold;
     font-size: 18px;
     background-color: rgba(183, 183, 183, 255);
-    margin-right: 35px;
-    margin-left: 35px;
+    margin-right: 30px;
+    margin-left: 30px;
     color: #5d52af;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 30px;
+}
+
+table {
+    max-height: auto;
 }
 
 pre {
