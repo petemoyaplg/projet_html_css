@@ -3,13 +3,18 @@
     src: url("OnlineWebFonts_COM_bb4a1f636326755327542a1c76c930f0/@font-face/5770baa7788e08e9b8cf0195faa46e00.ttf");
 }
 
+@font-face {
+    font-family: "LS-Bold";
+    src: url("LS-Bold/ffonts.net.txt");
+}
+
 body {
-    background-color: rgba(200, 200, 200, 255);
+    background-color: rgb(200, 200, 200, 1);
     width: 1020px;
     margin-left: 50%;
     position: relative;
     transform: translateX(-50%);
-    font-family: Arial, sans-serif;
+    font-family: LS-Bold, sans-serif;
 }
 
 h1 {
@@ -40,7 +45,7 @@ th, td {
 }
 
 tr:nth-of-type(2n+1) {
-    background-color: rgba(221, 221, 221, 255);
+    background-color: rgb(221, 221, 221, 1);
 }
 
 tr:hover {
@@ -48,8 +53,8 @@ tr:hover {
     cursor: pointer;
 }
 
-th {
-    background-color: rgba(51, 51, 51, 255);
+thead th, thead td {
+    background-color: rgb(51, 51, 51, 1);
     color: white;
     cursor: inherit;
 }
@@ -75,7 +80,7 @@ figcaption {
 }
 
 a {
-    color: rgba(206, 14, 48, 255);
+    color: rgba(206, 14, 48, 1);
 }
 
 p {
@@ -86,7 +91,7 @@ p {
     border: 3px dashed darkslateblue;
     font-weight: bold;
     font-size: 18px;
-    background-color: rgba(183, 183, 183, 255);
+    background-color: rgb(183, 183, 183);
     margin-right: 30px;
     margin-left: 30px;
     color: #5d52af;
@@ -95,10 +100,6 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 30px;
-}
-
-table {
-    max-height: auto;
 }
 
 pre {
