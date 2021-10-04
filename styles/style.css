@@ -1,11 +1,12 @@
 @font-face {
     font-family: "Baskerville";
-    src: url("OnlineWebFonts_COM_bb4a1f636326755327542a1c76c930f0/@font-face/5770baa7788e08e9b8cf0195faa46e00.ttf");
+    src: url("OnlineWebFonts_COM_bb4a1f636326755327542a1c76c930f0/@font-face/5770baa7788e08e9b8cf0195faa46e00.ttf")
+        format("ttf");
 }
 
 @font-face {
     font-family: "LS-Bold";
-    src: url("LS-Bold/ffonts.net.txt");
+    src: url("LS-Bold/ffonts.net.txt") format("txt");
 }
 
 body {
@@ -40,11 +41,12 @@ table {
     width: 100%;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
 }
 
-tr:nth-of-type(2n+1) {
+tr:nth-of-type(2n + 1) {
     background-color: rgb(221, 221, 221, 1);
 }
 
@@ -53,7 +55,8 @@ tr:hover {
     cursor: pointer;
 }
 
-thead th, thead td {
+thead th,
+thead td {
     background-color: rgb(51, 51, 51, 1);
     color: white;
     cursor: inherit;
@@ -87,7 +90,8 @@ p {
     text-align: left;
 }
 
-#paraph, pre {
+#paraph,
+pre {
     border: 3px dashed darkslateblue;
     font-weight: bold;
     font-size: 18px;
